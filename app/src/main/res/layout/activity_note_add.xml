@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_minCharacters="3"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/textEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="2000"
+            app:met_minCharacters="3"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCC"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewMark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mark"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop = "8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/typeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/yellowRadioButton"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/redRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Red" />
+
+            <RadioButton
+                android:id="@+id/orangeRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Orange" />
+
+            <RadioButton
+                android:id="@+id/yellowRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Yellow" />
+
+            <RadioButton
+                android:id="@+id/lightGreenRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/LightGreen" />
+
+            <RadioButton
+                android:id="@+id/greenRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Green" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCC"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/addNoteButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/noteadd"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

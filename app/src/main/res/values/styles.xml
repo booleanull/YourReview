@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PurpleGrey">
+        <item name="colorPrimary">@color/PurpleGrey</item>
+        <item name="colorAccent">@color/PurpleGrey</item>
+        <item name="colorPrimaryDark">@color/DarkPurpleGrey</item>
+    </style>
+
+    <style name="BlueGrey">
+        <item name="colorPrimary">@color/BlueGrey</item>
+        <item name="colorAccent">@color/BlueGrey</item>
+        <item name="colorPrimaryDark">@color/DarkBlueGrey</item>
+    </style>
+
+    <style name="Grey">
+        <item name="colorPrimary">@color/Grey</item>
+        <item name="colorAccent">@color/Grey</item>
+        <item name="colorPrimaryDark">@color/DarkGrey</item>
+    </style>
+
+    <style name="Brown">
+        <item name="colorPrimary">@color/Brown</item>
+        <item name="colorAccent">@color/Brown</item>
+        <item name="colorPrimaryDark">@color/DarkBrown</item>
+    </style>
+
+    <style name="DeepOrange">
+        <item name="colorPrimary">@color/DeepOrange</item>
+        <item name="colorAccent">@color/DeepOrange</item>
+        <item name="colorPrimaryDark">@color/DarkDeepOrange</item>
+    </style>
+
+    <style name="Orange">
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="colorAccent">@color/Orange</item>
+        <item name="colorPrimaryDark">@color/DarkOrange</item>
+    </style>
+
+    <style name="Amber">
+        <item name="colorPrimary">@color/Amber</item>
+        <item name="colorAccent">@color/Amber</item>
+        <item name="colorPrimaryDark">@color/DarkAmber</item>
+    </style>
+
+    <style name="Yellow">
+        <item name="colorPrimary">@color/Yellow</item>
+        <item name="colorAccent">@color/Yellow</item>
+        <item name="colorPrimaryDark">@color/DarkYellow</item>
+    </style>
+
+    <style name="Lime">
+        <item name="colorPrimary">@color/Lime</item>
+        <item name="colorAccent">@color/Lime</item>
+        <item name="colorPrimaryDark">@color/DarkLime</item>
+    </style>
+
+    <style name="LightGreen">
+        <item name="colorPrimary">@color/LightGreen</item>
+        <item name="colorAccent">@color/LightGreen</item>
+        <item name="colorPrimaryDark">@color/DarkLightGreen</item>
+    </style>
+
+    <style name="Green">
+        <item name="colorPrimary">@color/Green</item>
+        <item name="colorAccent">@color/Green</item>
+        <item name="colorPrimaryDark">@color/DarkGreen</item>
+    </style>
+
+    <style name="Teal">
+        <item name="colorPrimary">@color/Teal</item>
+        <item name="colorAccent">@color/Teal</item>
+        <item name="colorPrimaryDark">@color/DarkTeal</item>
+    </style>
+
+    <style name="Cyan">
+        <item name="colorPrimary">@color/Cyan</item>
+        <item name="colorAccent">@color/Cyan</item>
+        <item name="colorPrimaryDark">@color/DarkCyan</item>
+    </style>
+
+    <style name="LightBlue">
+        <item name="colorPrimary">@color/LightBlue</item>
+        <item name="colorAccent">@color/LightBlue</item>
+        <item name="colorPrimaryDark">@color/DarkLightBlue</item>
+    </style>
+
+    <style name="Blue">
+        <item name="colorPrimary">@color/Blue</item>
+        <item name="colorAccent">@color/Blue</item>
+        <item name="colorPrimaryDark">@color/DarkBlue</item>
+    </style>
+
+    <style name="Indigo">
+        <item name="colorPrimary">@color/Indigo</item>
+        <item name="colorAccent">@color/Indigo</item>
+        <item name="colorPrimaryDark">@color/DarkIndigo</item>
+    </style>
+
+    <style name="DeepPurple">
+        <item name="colorPrimary">@color/DeepPurple</item>
+        <item name="colorAccent">@color/DeepPurple</item>
+        <item name="colorPrimaryDark">@color/DarkDeepPurple</item>
+    </style>
+
+    <style name="Purple">
+        <item name="colorPrimary">@color/Purple</item>
+        <item name="colorAccent">@color/Purple</item>
+        <item name="colorPrimaryDark">@color/DarkPurple</item>
+    </style>
+
+    <style name="Pink">
+        <item name="colorPrimary">@color/Pink</item>
+        <item name="colorAccent">@color/Pink</item>
+        <item name="colorPrimaryDark">@color/DarkPink</item>
+    </style>
+
+    <style name="Red">
+        <item name="colorPrimary">@color/Red</item>
+        <item name="colorAccent">@color/Red</item>
+        <item name="colorPrimaryDark">@color/DarkRed</item>
+    </style>
+
+</resources>

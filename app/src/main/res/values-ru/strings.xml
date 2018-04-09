@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">YourReview</string>
+
+    <string name="settings">Настройки</string>
+    <string name="email">Связь</string>
+    <string name="groupsize">Всего записей: </string>
+    <string name="groupdate">Последние изменения: </string>
+    <string name="change">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="deletemessage">Группа была удалена.</string>
+    <string name="empty">Пусто</string>
+    <string name="cancel">Отменить</string>
+
+    <string name="group">Новая группа</string>
+    <string name="main">Основное</string>
+    <string name="title">Заголовок</string>
+    <string name="color">Цвет</string>
+    <string name="icon">Иконка</string>
+    <string name="groupadd">Добавить группу</string>
+    <string name="groupchange">Отредактировать группу</string>
+    <string name="error">Ошибка! Проверьте введенные данные.</string>
+
+    <string name="showall">Показать полностью</string>
+    <string name="hide">Скрыть</string>
+
+    <string name="note">Новая запись</string>
+    <string name="mark">Оценка</string>
+    <string name="text">Текст</string>
+    <string name="noteadd">Добавить запись</string>
+    <string name="deletemessagenotes">Запись была удалена.</string>
+    <string name="notechange">Отредактировать запись</string>
+
+    <string name="search">Поиск</string>
+</resources>

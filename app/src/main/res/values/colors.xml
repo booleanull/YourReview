@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#00897B</color>
+
+    <color name="DarkRed">#B71C1C</color>
+    <color name="DarkPink">#880E4F</color>
+    <color name="DarkPurple">#4A148C</color>
+    <color name="DarkDeepPurple">#311B92</color>
+    <color name="DarkIndigo">#1A237E</color>
+    <color name="DarkBlue">#0D47A1</color>
+    <color name="DarkLightBlue">#01579B</color>
+    <color name="DarkCyan">#006064</color>
+    <color name="DarkTeal">#004D40</color>
+    <color name="DarkGreen">#1B5E20</color>
+    <color name="DarkLightGreen">#33691E</color>
+    <color name="DarkLime">#827717</color>
+    <color name="DarkYellow">#F57F17</color>
+    <color name="DarkAmber">#FF6F00</color>
+    <color name="DarkOrange">#E65100</color>
+    <color name="DarkDeepOrange">#BF360C</color>
+    <color name="DarkBrown">#3E2723</color>
+    <color name="DarkGrey">#212121</color>
+    <color name="DarkBlueGrey">#263238</color>
+    <color name="DarkPurpleGrey">#262836</color>
+
+    <color name="Red">#E53935</color>
+    <color name="Pink">#D81B60</color>
+    <color name="Purple">#8E24AA</color>
+    <color name="DeepPurple">#5E35B1</color>
+    <color name="Indigo">#3949AB</color>
+    <color name="Blue">#1E88E5</color>
+    <color name="LightBlue">#039BE5</color>
+    <color name="Cyan">#00ACC1</color>
+    <color name="Teal">#00897B</color>
+    <color name="Green">#43A047</color>
+    <color name="LightGreen">#7CB342</color>
+    <color name="Lime">#C0CA33</color>
+    <color name="Yellow">#FDD835</color>
+    <color name="Amber">#FFB300</color>
+    <color name="Orange">#FB8C00</color>
+    <color name="DeepOrange">#F4511E</color>
+    <color name="Brown">#6D4C41</color>
+    <color name="Grey">#757575</color>
+    <color name="BlueGrey">#546E7A</color>
+    <color name="PurpleGrey">#4c516d</color>
+</resources>

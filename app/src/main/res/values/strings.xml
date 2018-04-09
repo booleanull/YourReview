@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">YourReview</string>
+
+    <string name="settings">Settings</string>
+    <string name="email">E-mail</string>
+    <string name="groupsize">Total records: </string>
+    <string name="groupdate">Last changes: </string>
+    <string name="change">Edit</string>
+    <string name="delete">Remove</string>
+    <string name="deletemessage">The group was deleted.</string>
+    <string name="empty">Empty</string>
+    <string name="cancel">Undo</string>
+
+    <string name="group">New group</string>
+    <string name="main">Basic</string>
+    <string name="title">Header</string>
+    <string name="color">Colour</string>
+    <string name="icon">Icons</string>
+    <string name="groupadd">Add group</string>
+    <string name="groupchange">Edit group</string>
+    <string name="error">Error! Check the entered data.</string>
+
+    <string name="showall">Show full text</string>
+    <string name="hide">Hide</string>
+
+    <string name="note">New note</string>
+    <string name="mark">Mark</string>
+    <string name="text">Text</string>
+    <string name="noteadd">Add a note</string>
+    <string name="deletemessagenotes">The note was deleted.</string>
+    <string name="notechange">Edit note</string>
+
+    <string name="search">Search</string>
+</resources>
