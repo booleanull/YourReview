@@ -1,4 +1,6 @@
-package com.bnull.yourreview;
+package com.bnull.yourreview.models;
+
+import com.bnull.yourreview.R;
 
 import java.io.Serializable;
 

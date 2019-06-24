@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GroupActivity">
+        <activity android:name=".ui.GroupActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GroupAddActivity"
+            android:name=".ui.GroupAddActivity"
             android:label="@string/group" />
-        <activity android:name=".NoteActivity" />
-        <activity android:name=".NoteAddActivity"
+        <activity android:name=".ui.NoteActivity" />
+        <activity android:name=".ui.NoteAddActivity"
             android:label="@string/note"/>
     </application>
 

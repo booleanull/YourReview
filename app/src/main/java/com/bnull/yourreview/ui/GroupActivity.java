@@ -1,20 +1,23 @@
-package com.bnull.yourreview;
+package com.bnull.yourreview.ui;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+
+import com.bnull.yourreview.R;
+import com.bnull.yourreview.adapters.GroupAdapter;
+import com.bnull.yourreview.models.Group;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.gson.Gson;
@@ -77,7 +80,7 @@ public class GroupActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_group);
-        FirebaseAnalytics mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        FirebaseAnalytics.getInstance(this);
         LoadData();
 
         empty = findViewById(R.id.emptyTextView);
@@ -125,7 +128,7 @@ public class GroupActivity extends AppCompatActivity implements View.OnClickList
                 emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
                 emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Your subject");
                 emailIntent.putExtra(Intent.EXTRA_TEXT, "Email message goes here");
-                startActivity(Intent.createChooser(emailIntent, "Send mail..."));
+                startActivity(Intent.createChooser(emailIntent, "Send"));
                 break;
         }
         return true;

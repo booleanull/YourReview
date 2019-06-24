@@ -1,7 +1,7 @@
-package com.bnull.yourreview;
+package com.bnull.yourreview.ui;
 
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -9,9 +9,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import static com.bnull.yourreview.GroupActivity.changeGroup;
-import static com.bnull.yourreview.GroupActivity.groups;
-import static com.bnull.yourreview.GroupActivity.newGroup;
+import com.bnull.yourreview.R;
+import com.bnull.yourreview.models.Group;
+
+import static com.bnull.yourreview.ui.GroupActivity.changeGroup;
+import static com.bnull.yourreview.ui.GroupActivity.groups;
+import static com.bnull.yourreview.ui.GroupActivity.newGroup;
 
 public class GroupAddActivity extends AppCompatActivity implements View.OnClickListener {
 

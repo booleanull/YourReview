@@ -1,8 +1,6 @@
-package com.bnull.yourreview;
+package com.bnull.yourreview.ui;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,12 +10,15 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bnull.yourreview.R;
+import com.bnull.yourreview.models.Note;
+
 import java.util.Calendar;
 
-import static com.bnull.yourreview.GroupActivity.groupAdapter;
-import static com.bnull.yourreview.GroupActivity.groups;
-import static com.bnull.yourreview.NoteActivity.changeNote;
-import static com.bnull.yourreview.NoteActivity.newNote;
+import static com.bnull.yourreview.ui.GroupActivity.groupAdapter;
+import static com.bnull.yourreview.ui.GroupActivity.groups;
+import static com.bnull.yourreview.ui.NoteActivity.changeNote;
+import static com.bnull.yourreview.ui.NoteActivity.newNote;
 
 public class NoteAddActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,6 +26,7 @@ public class NoteAddActivity extends AppCompatActivity implements View.OnClickLi
     private boolean change;
     private int position;
     private int pos = -1;
+
     private com.rengwuxian.materialedittext.MaterialEditText titleEditText;
     private com.rengwuxian.materialedittext.MaterialEditText textEditText;
     private RadioGroup typeRadioGroup;
@@ -108,10 +110,10 @@ public class NoteAddActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_note_add);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        titleEditText = (com.rengwuxian.materialedittext.MaterialEditText) findViewById(R.id.titleEditText);
-        textEditText = (com.rengwuxian.materialedittext.MaterialEditText) findViewById(R.id.textEditText);
-        typeRadioGroup = (RadioGroup) findViewById(R.id.typeRadioGroup);
-        addNote = (Button) findViewById(R.id.addNoteButton);
+        titleEditText = findViewById(R.id.titleEditText);
+        textEditText = findViewById(R.id.textEditText);
+        typeRadioGroup = findViewById(R.id.typeRadioGroup);
+        addNote = findViewById(R.id.addNoteButton);
         addNote.setOnClickListener(this);
 
         main = findViewById(R.id.textViewMain);

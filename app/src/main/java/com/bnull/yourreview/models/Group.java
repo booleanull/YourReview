@@ -1,28 +1,34 @@
-package com.bnull.yourreview;
+package com.bnull.yourreview.models;
+
+import com.bnull.yourreview.R;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 
 public class Group implements Serializable {
 
-    private String name;
     private ArrayList<Note> notes;
+    private String name;
     private int color;
     private int icon;
 
     public Group(String name, int color, int icon) {
-        this.name = name;
         this.notes = new ArrayList<>();
+        this.name = name;
         this.color = color;
         this.icon = icon;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public ArrayList<Note> getNotes() {
         return notes;
+    }
+
+    public int getArrayListSize() {
+        return notes.size();
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getColor() {
@@ -55,10 +61,6 @@ public class Group implements Serializable {
         return color;
     }
 
-    public int getIconId() {
-        return icon;
-    }
-
     public int getIcon() {
         switch (icon) {
             case 0: return R.drawable.ic_book_black_24dp;
@@ -85,16 +87,12 @@ public class Group implements Serializable {
         }
     }
 
-    public int getArrayListSize() {
-        return notes.size();
+    public int getIconId() {
+        return icon;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setNotes(ArrayList<Note> notes) {
-        this.notes = notes;
     }
 
     public void setColor(int color) {
