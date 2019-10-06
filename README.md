@@ -1,7 +1,7 @@
 # YourReview
 Application for storing comments.
 
-https://play.google.com/store/apps/details?id=com.bnull.yourreview
+https://play.google.com/store/apps/details?id=com.booleanull.yourreview
 
 ## Privaty Policy
 ```
